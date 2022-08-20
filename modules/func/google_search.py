@@ -1,3 +1,15 @@
+# ========================================================== #
+# [処理名]
+# Google自動検索処理
+# 
+# [クラス名]
+# GoogleSearch
+# 
+# [メソッド名]
+# 1. def __init__(self, obj_chrome_webdriver): 初期化処理
+# 2. main_func(self): メイン処理
+# ========================================================== #
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 

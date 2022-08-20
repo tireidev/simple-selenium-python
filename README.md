@@ -21,10 +21,10 @@ Selenium(Python)の簡易的な使い方をまとめていきます。
       2. 解凍した実行ファイルは適当な場所に配置すること 例) C:\tools\chromedriver.exe
 
 3. 以下のコマンドでseleniumをインストールする
-```
-python -m pip install --upgrade pip
-pip install selenium
-```
+   ```
+   python -m pip install --upgrade pip
+   pip install selenium
+   ```
 Windowsでwslを利用してる場合は以下のコマンドを利用
 ```
 python -m pip install --upgrade pip
@@ -34,4 +34,10 @@ pip3 install selenium
 以下のコマンドでseleniumが表示されることを確認する。
 ```
 pip list
+```
+
+## 使用方法
+以下のコマンドで実行することが可能。
+```
+python .\main.py
 ```

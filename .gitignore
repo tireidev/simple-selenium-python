@@ -1,5 +1,5 @@
-src/func/__pycache__
-src/modules/const/__pycache__
-src/modules/webdriver/__pycache__
-src/modules/screenshot/__pycache__
+modules/func/__pycache__
+modules/const/__pycache__
+modules/webdriver/__pycache__
+modules/screenshot/__pycache__
 img/*

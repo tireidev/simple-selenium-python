@@ -29,6 +29,9 @@ class ChromeWebdriver:
         #  [3000:7696:0816/212549.767:ERROR:device_event_log_impl.cc(214)] [21:25:49.767] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
         chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
         
+        # スクロールバー非表示処理
+        chrome_options.add_argument('--hide-scrollbars')
+
         # ブラウザ非表示処理
         chrome_options.add_argument('--headless')
 

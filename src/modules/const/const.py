@@ -1,1 +1,0 @@
-CHROME_DRIVER = 'C:/tools/chromedriver.exe'
